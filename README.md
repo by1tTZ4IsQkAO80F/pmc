@@ -20,6 +20,8 @@ For our project, We used 4 files from MIMIC 4, which include admission and patie
 
 # Data Proprocessing:
 
+- `experiment/clean_mimic.py`
+
 Our python script accepts 5 input, the file path of admission,edstay,triage, and patient, and the path you want to store the final resulting file respectively. You can try using the -h document to get more help for more specific information.
 
 Once the input are provided to our clean_mimic.py script, it will process the file and save them as the final.csv, will will be used for our further machine learning and fairness models.
@@ -56,5 +58,4 @@ We convert continopus age variable into 5 year bins.
 
 We finally saved our file on path provided(default is the same path), and started our model training. Also note that we drop 'chiefcomplaint' and 'admission_location' when we read files in model training.
 
-# Run the pipeline for Machine Learning on MIMIC data:
 
