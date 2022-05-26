@@ -56,6 +56,6 @@ We convert continopus age variable into 5 year bins.
 
 ## Step 5 : Save to Path
 
-We finally saved our file on path provided(default is the same path), and started our model training. Also note that we drop 'chiefcomplaint' and 'admission_location' when we read files in model training.
+Optionally provide a path, or data will be saved in current directory.
 
 
